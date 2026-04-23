@@ -10,7 +10,9 @@ from calculator import Calculator
 @pytest.fixture
 def calc():
     """Tworzy instancje Calculator -- odpowiednik setUp w unittest."""
-    return Calculator()
+    # setup
+    yield Calculator()
+    # teardown
 
 
 # --- Podstawowe testy (proste funkcje, nie klasa!) ---
