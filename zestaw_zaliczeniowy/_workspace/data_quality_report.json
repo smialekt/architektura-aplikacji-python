@@ -1,0 +1,34 @@
+{
+    "contract_name": "IMDB_Dataset_Contract",
+    "timestamp": "2026-06-26T19:50:55.320235",
+    "rules": {
+        "no_nulls": {
+            "passed": true,
+            "severity": "error"
+        },
+        "labels_in_set": {
+            "passed": true,
+            "severity": "error"
+        },
+        "min_word_count": {
+            "passed": true,
+            "severity": "warning"
+        },
+        "max_word_count": {
+            "passed": true,
+            "severity": "warning"
+        },
+        "no_duplicates": {
+            "passed": true,
+            "severity": "warning"
+        },
+        "class_balance": {
+            "passed": true,
+            "severity": "warning"
+        },
+        "no_html_tags": {
+            "passed": false,
+            "severity": "warning"
+        }
+    }
+}
